@@ -10,14 +10,15 @@ En esta actividad, pondrás en práctica habilidades de manejo de archivos y pro
 1. **Lectura de empleados desde archivo de texto:**
    - Debes leer un archivo de texto con los datos de los empleados utilizando flujos de caracteres.
    - El archivo debe contener una lista de empleados, donde cada línea representa un empleado y los campos están separados por comas. Ejemplo:
-     ```
+     ```csv
     ID,Apellido,Departamento,Salario
     1,Garcia,IT,3000.0
     2,Perez,HR,2500.0
     3,López,Finance,3200.0
     4,Moreno,Marketing,2900.0
      ```
-     - Los campos que contiene cada línea son:
+     
+- Los campos que contiene cada línea son:
        - **ID:** Identificador único del empleado.
        - **Apellido:** Apellido del empleado.
        - **Departamento:** Departamento al que pertenece el empleado.
