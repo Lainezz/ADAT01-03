@@ -10,7 +10,8 @@ En esta actividad, pondrás en práctica habilidades de manejo de archivos y pro
 1. **Lectura de empleados desde archivo de texto:**
    - Debes leer un archivo de texto con los datos de los empleados utilizando flujos de caracteres.
    - El archivo debe contener una lista de empleados, donde cada línea representa un empleado y los campos están separados por comas. Ejemplo:
-     ```csv
+
+    ```csv
     ID,Apellido,Departamento,Salario
     1,Garcia,IT,3000.0
     2,Perez,HR,2500.0
@@ -18,11 +19,11 @@ En esta actividad, pondrás en práctica habilidades de manejo de archivos y pro
     4,Moreno,Marketing,2900.0
      ```
      
-- Los campos que contiene cada línea son:
-       - **ID:** Identificador único del empleado.
-       - **Apellido:** Apellido del empleado.
-       - **Departamento:** Departamento al que pertenece el empleado.
-       - **Salario:** Salario actual del empleado.
+Los campos que contiene cada línea son:
+- **ID:** Identificador único del empleado.
+- **Apellido:** Apellido del empleado.
+- **Departamento:** Departamento al que pertenece el empleado.
+- **Salario:** Salario actual del empleado.
 
 2. **Generación de un archivo XML:**
    - A partir de los datos leídos del archivo de texto, deberás generar un archivo XML que contenga la información de los empleados. Utiliza el modelo DOM para crear este archivo XML.
